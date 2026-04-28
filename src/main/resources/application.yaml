@@ -9,3 +9,15 @@ spring:
 
   liquibase:
     enabled: false
+
+  jpa:
+    show-sql: true
+    database-platform: org.hibernate.dialect.MySQLDialect
+
+server:
+  port: 8090
+
+logging:
+  level:
+    org.springframework.com: DEBUG
+    com.january0001.project.forumbackend: DEBUG
